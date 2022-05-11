@@ -1,0 +1,12 @@
+New build.
+flush mount micro usb with 90. 
+1.) https://www.amazon.com/Kework-Extension-Motorcycle-Dashboard-Charging/dp/B08LBKD8KZ?th=1
+
+Better magnetometer
+2.) https://learn.adafruit.com/lis3mdl-triple-axis-magnetometer?view=all
+
+Smaller Housing for low profile
+3.)file:///C:/Users/djave/Downloads/261951315942954.pdf
+https://www.polycase.com/wc-20
+
+Need to do exact measurments before purchase. 

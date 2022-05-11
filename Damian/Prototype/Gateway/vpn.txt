@@ -1,0 +1,5 @@
+vpn software--> https://openvpn.net/community-downloads/
+
+router ip ---> http://192.168.0.2:8080
+SSID: NETGEA65
+PASSWORD: oddpiano946 (NO CAPS)
