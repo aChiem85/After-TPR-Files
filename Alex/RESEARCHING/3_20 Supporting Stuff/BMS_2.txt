@@ -1,0 +1,41 @@
+Protection Circuit Board Specifications  For 3.6V/3.7V Li-ion/Li-po Battery Pack 
+Model: PCB-S1A3BK10
+
+No. 			Test   item 				Criterion
+
+1 	Voltage 	
+			Charging voltage 			DC: 4.2V CC/CV
+			Balance voltage for single cell 	N/A
+2 	Current 	
+			Balance current for single cell 	N/A
+			Current consumption for single cell 	≤10μA
+			Maximal continuous Charging current 	3A
+			Maximal continuous discharging current 	3A
+3 	Over charge Protection
+	(single cell) 	
+			Over charge detection voltage 		4.30±0.05V
+			Over charge detection delay time 	10S-300S
+			Over charge release voltage 		4.10±0.05V
+4 	Over discharge protection
+	(single cell) 	
+			Over discharge detection voltage 	2.4±0.1V
+			Over discharge detection delay time 	10-200mS
+			Over discharge release voltage 		3.0±0.1V
+5 	Over current protection 	
+			Over current detection voltage 		N/A
+			Over current detection current 		5±1A
+			Detection delay time   			5ms-60ms
+			Release condition 			Cut load
+6 	Short protection 	
+			Detection condition 			Exterior short circuit
+			Detection delay time 			200-800us
+			Release condition 			Cut load
+7 	Resistance 	
+			Protection  circuitry (B- TO P-) 	≤50mΩ
+8 	Temperature 	
+			Operating Temperature Range 		-40 to +85℃
+			Storage Temperature Range 		-40 to +125℃
+
+9 	Weight 	  						0.3Oz
+
+10 	Dimenstion 	Dia x T 				14 x 2.5 mm

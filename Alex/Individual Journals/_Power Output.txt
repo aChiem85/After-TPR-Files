@@ -1,0 +1,26 @@
+0.AMP Values
+
+Arduino - 0.019
+Arduino + Magnetometer = 0.024
+Arduino + Time of Flight = 0.022
+
+(In AMPS, otherwise specified)
+Arduino Blink - 0.021
+Arduino VL53L0X - 0.025
+Arduino MPU9250 - 0.021
+
+Sensors
+Magnetometer - 2.94 mA
+Time of Flight - 5.2 mA
+
+All Connected - 8.2 mA
+
+Arduino (Connectng to LoRa) = 0.068
+
+5+25+5.73+5.2+2.94 = 43.87
+1052.88 mAh
+
+Original = 57.33 NOT 32.33
+1375.92 mAh
+
+22 mAh (No Boost)

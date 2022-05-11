@@ -1,0 +1,68 @@
+Solar Power Management Module, for 6V~24V Solar Panel
+CAUTION: DO NOT put any non-rechargeable battery, like dry cell, into the battery holder. Serious consequences including explosion may occur if you try to charge a non-rechargeable battery.
+
+SAFETY CAUTIONS
+
+    Li-ion and Li-po batteries are quite unstable. They may cause fire, personal injury, or property damage, if they're not properly recharged or used.
+    Do not reversely connect the polarities when recharging or discharging the battery. Do not use inferior charger/charging panel to recharge the battery.
+    Do not mix use old batteries with new ones, avoid using batteries of different brands.
+    When buying Lithium battery, should always make sure the battery specification is compatible with the expansion board. Choose batteries from formal manufacturer, and ensure the batteries will work stably and safely by aging test.
+    Lithium batteries have limited cycle life, they will also deteriorate as time goes by. Should be replaced with new ones when the batteries reaching their max cycle life, or working over two years, whichever comes first.
+    Should be placed carefully and properly, keep it away from inflammables and explosives articles, away from children, avoid any safety accident caused by careless storage.
+
+Overview
+
+This solar power management module is designed for 6V~24V solar panel. It can charge the 3.7V rechargeable Li battery through solar panel or USB connection, and provides 5V/1A regulated output.
+
+The module features MPPT (Maximum Power Point Tracking) function and multi protection circuits, therefore, it is able to keep working with high-efficiency, stability, and safety. It is suited for solar powered, low-power IoT, and other environmental protection projects.
+Features
+
+    Supports MPPT (Maximum Power Point Tracking) function, maximizing the efficiency of the solar panel
+    Supports solar panel / USB connection battery charging
+    For 6V~24V solar panel, DC-002 jack input or screw terminal input
+    Onboard MPPT SET switch, select the level closed to input level to improve charging efficiency
+    Two 5V output interfaces: pinheaders and USB port
+    Onboard high capacity aluminum electrolytic capacitor and SMD ceramic capacitor, reducing the ripple, stable performance
+    14500 battery holder and PH2.0 battery connector, for connecting multi kinds of 3.7V rechargeable Li battery
+    Several LED indicators, for monitoring the status of solar panel and battery
+    Multi protection circuits: over charge / over discharge / reverse protection / over heat / over current, stable and safe to use
+
+Specifications
+
+    Solar panel input voltage (SOLAR IN): 6V~24V
+    Micro USB input voltage (USB IN): 5V
+    Pinheader / USB output (USB OUT): 5V 1A
+    Charging cutoff voltage: 4.2V±1％
+    Over discharging protection voltage: 2.9V±1％
+    Solar panel charge efficiency:: ~78%
+    USB charge efficiency:: ~82%
+    3.7V battery boost output efficiency: ~86%
+    Max quiescent current: <2mA
+    Operating temperature: -40℃~85℃
+    Dimension: 65.2mm × 56.2mm × 22.9mm
+
+What's on Board
+Solar Power Manager on board resource
+
+    Solar panel charging input: charged by solar panel, DC-002 jack or screw terminal
+    USB charging input: charged by USB connection, connect a 5V power adapter through the Micro USB port
+    5V/1A power output: provides regulated 5V/1A output, USB port or 2.54mm pinheader
+    Battery interfaces: for connecting 3.7V rechargeable Li battery, PH2.0 connector or 14500 battery holder
+    CS8501: USB power management chip, for USB charging and 5V/1A boost output
+    CN3791: solar power management chip, for solar panel charging and buck input
+    Li battery protection chip: Li battery over charge / over discharge protection
+    Battery switch
+    MPPTSET switch (bottom side):
+    supported level: 6V/9V/12V/18V/24V
+    select the level closed to input level to improve charging efficiency
+    BOOT key
+    Battery capacity indicators
+    USB charging indicators:
+    USB Charge: on when USB charging
+    USB Done: on when the battery is full charged by USB
+    Solar panel charging indicators:
+    Solar Charge: on when solar panel charging
+    Solar Done: on when the battery is full charged by solar panel
+    Solar Warning: on when solar panel reverse connection
+    Battery warning: on when battery reverse connection
+    Power output indicator: 5V/1A output
