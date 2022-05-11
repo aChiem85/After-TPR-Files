@@ -1,0 +1,13 @@
+Infrared camera with infrared reflector per stall (powered by the grid) lamp post -Alex Chiem
+
+"puck" in pavment of parking stall powered by solar panel and battery??? 
+
+Inductive loop -Damian Avery
+
+magnetometer -Martin Kairuki
+
+capacitive loop -Max Burrell 
+
+
+
+

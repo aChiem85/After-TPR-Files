@@ -1,0 +1,30 @@
+smart-park-342405
+
+
+RS256 KEYS
+
+Your identification has been saved in private-key.pem
+Your public key has been saved in private-key.pem.pub
+The key fingerprint is:
+SHA256:TGdXqPGtfwhAZl2Ar8V39cPquxOE/jKZsX+Iy4mOyro djavery17@cs-416945891205-default
+The key's randomart image is:
++---[RSA 4096]----+
+|           o.+o  |
+|          * o.  .|
+|        .+o*o.. o|
+|       o ooo=.ooo|
+|        S .+.o...|
+|          .ooo   |
+|            Ooo. |
+|    .   . oB.=o..|
+|   Eoo...o +=+=. |
++----[SHA256]-----+
+writing RSA key
+
+
+-----BEGIN CERTIFICATE-----
+Kdhj2QOgDA8KLE9BMPstHtgiQuoUeEpelBGARAOJNcM
+-----END CERTIFICATE-----
+
+openssl rsa -out private-key.pem 2048
+openssl rsa -in private-key.pem -out private-key.pem
